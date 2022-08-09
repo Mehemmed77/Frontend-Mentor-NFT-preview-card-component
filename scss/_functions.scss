@@ -1,0 +1,5 @@
+@import './variables';
+
+@function getKey_weights($key){
+    @return map-get($font-weights, $key);
+}
